@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUser">
+
+    <CheckBox
+        android:id="@+id/math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="244dp"
+        android:text="Math"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="244dp"
+        android:text="English"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/math" />
+
+    <CheckBox
+        android:id="@+id/science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="244dp"
+        android:text="Science"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/english" />
+
+    <CheckBox
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="244dp"
+        android:text="History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/science" />
+
+    <CheckBox
+        android:id="@+id/geography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="64dp"
+        android:text="Geography"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/math"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/ict"
+        android:layout_width="99dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="65dp"
+        android:text="ICT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/english"
+        app:layout_constraintTop_toBottomOf="@+id/geography" />
+
+    <CheckBox
+        android:id="@+id/spanish"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="spanish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history" />
+
+    <CheckBox
+        android:id="@+id/art"
+        android:layout_width="93dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="65dp"
+        android:text="art"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/history"
+        app:layout_constraintTop_toBottomOf="@+id/business" />
+
+    <CheckBox
+        android:id="@+id/arabic"
+        android:layout_width="92dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:text="arabic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/art" />
+
+    <CheckBox
+        android:id="@+id/business"
+        android:layout_width="95dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="64dp"
+        android:text="Business"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/science"
+        app:layout_constraintTop_toBottomOf="@+id/ict" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="160dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="48dp"
+        android:hint="POOOOOOOOO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arabic"
+        tools:ignore="MissingConstraints">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColorHint="#616161"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
